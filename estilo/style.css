@@ -83,6 +83,7 @@ header {
 .navegacao > nav ul li a:hover {
     text-decoration: underline;
     background-color: rgba(0, 0, 0, 0.342);
+    transition: 0.5s;
 }
 
 #titulo h1 {
@@ -94,3 +95,5 @@ header {
     border: 1px solid white;
     width: 600px; 
 }
+
+/* Main */
