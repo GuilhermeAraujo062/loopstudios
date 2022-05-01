@@ -77,13 +77,11 @@ header {
     font-weight: 400;
     font-size: 1.2em;
     padding: 10px;
-    border-radius: 10px;
 }
 
 .navegacao > nav ul li a:hover {
-    text-decoration: underline;
-    background-color: rgba(0, 0, 0, 0.342);
-    transition: 0.5s;
+    border-bottom: 3px solid white;
+    border-radius: 2px;
 }
 
 #titulo h1 {
@@ -97,6 +95,83 @@ header {
 }
 
 /* Main */
-.imagem1 {
-    float: left;
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-top: 200px;
+}
+
+.imagem2 {
+    margin-left: -160px;
+    margin-top: 195px;
+    height: 300px;
+    max-width: 500px;
+    background-color: var(--color-white);
+
+    text-align: left;
+
+}
+
+.imagem2 h2, p {
+    padding: 0px 87px;
+    font-size: 1.1em;
+}
+
+.imagem2 h2 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+/*  */
+
+.criacoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.descricao h2 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.botao {
+    background-color: transparent;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px 30px;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+/*  */
+
+.trabalho {
+
+}
+
+.foto {
+    width: 256px;
+    height: 450px;
+    color: var(--color-white);
+    background-image: url(../imagens/desktop/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
