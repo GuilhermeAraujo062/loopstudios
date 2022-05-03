@@ -84,7 +84,7 @@ header {
     border-radius: 2px;
 }
 
-#titulo h1 {
+.titulo h1 {
     text-transform: uppercase;
     padding: 30px;
     font-size: 5em;

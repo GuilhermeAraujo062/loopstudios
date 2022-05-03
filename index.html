@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/mediaquery.css">
     <title>LoopStudio</title>
 </head>
 <body>
@@ -24,7 +25,7 @@
             </nav>
         </div>
         
-        <div id="titulo">
+        <div class="titulo" id="titulo">
             <h1 >Immersive <br>Experiences <br>That Deliver</h1>
         </div>
     </header>
@@ -32,7 +33,10 @@
     <main>
         <section class="conteiner">
             <div class="imagem1">
-                <img src="imagens/desktop/image-interactive.jpg" alt="">
+                <picture>
+                    <source media="(max-width: 1100px)" srcset="imagens/mobile/image-interactive.jpg">
+                    <img src="imagens/desktop/image-interactive.jpg" alt="">
+                </picture>
             </div>
 
             <div class="imagem2">
